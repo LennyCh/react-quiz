@@ -1,0 +1,99 @@
+@keyframes ldio-3mnmd5nl4d4 {
+    0% {
+        opacity: 1;
+        backface-visibility: hidden;
+        transform: translateZ(0) scale(1.5,1.5);
+    } 100% {
+          opacity: 0;
+          backface-visibility: hidden;
+          transform: translateZ(0) scale(1,1);
+      }
+}
+.Loader div > div {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #101010;
+    animation: ldio-3mnmd5nl4d4 1s linear infinite;
+}.Loader div:nth-child(1) > div {
+     left: 116px;
+     top: 98px;
+     animation-delay: -0.875s;
+ }
+.Loader > div:nth-child(1) {
+    transform: rotate(0deg);
+    transform-origin: 118px 100px;
+}.Loader div:nth-child(2) > div {
+     left: 111px;
+     top: 111px;
+     animation-delay: -0.75s;
+ }
+.Loader > div:nth-child(2) {
+    transform: rotate(45deg);
+    transform-origin: 113px 113px;
+}.Loader div:nth-child(3) > div {
+     left: 98px;
+     top: 116px;
+     animation-delay: -0.625s;
+ }
+.Loader > div:nth-child(3) {
+    transform: rotate(90deg);
+    transform-origin: 100px 118px;
+}.Loader div:nth-child(4) > div {
+     left: 85px;
+     top: 111px;
+     animation-delay: -0.5s;
+ }
+.Loader > div:nth-child(4) {
+    transform: rotate(135deg);
+    transform-origin: 87px 113px;
+}.Loader div:nth-child(5) > div {
+     left: 80px;
+     top: 98px;
+     animation-delay: -0.375s;
+ }
+.Loader > div:nth-child(5) {
+    transform: rotate(180deg);
+    transform-origin: 82px 100px;
+}.Loader div:nth-child(6) > div {
+     left: 85px;
+     top: 85px;
+     animation-delay: -0.25s;
+ }
+.Loader > div:nth-child(6) {
+    transform: rotate(225deg);
+    transform-origin: 87px 87px;
+}.Loader div:nth-child(7) > div {
+     left: 98px;
+     top: 80px;
+     animation-delay: -0.125s;
+ }
+.Loader > div:nth-child(7) {
+    transform: rotate(270deg);
+    transform-origin: 100px 82px;
+}.Loader div:nth-child(8) > div {
+     left: 111px;
+     top: 85px;
+     animation-delay: 0s;
+ }
+.Loader > div:nth-child(8) {
+    transform: rotate(315deg);
+    transform-origin: 113px 87px;
+}
+.LoaderContainer {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: #2f6144;
+}
+.Loader {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; /* see note above */
+}
+.Loader div { box-sizing: content-box; }
